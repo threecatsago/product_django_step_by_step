@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from emotion_wheel.views import emotion_view
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('emotions/', emotion_view, name='core_emotions'),
+    # path('emotions/<int:parent_id>/', emotion_view, name='sub_emotions'),
+
 ]
