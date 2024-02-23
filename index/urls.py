@@ -8,5 +8,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # path('', views.index_view, name='index'),  # 定义index应用的视图和URL模式
+    # path('', indexView, name='index'),  # 定义index应用的视图和URL模式
 ]

@@ -6,4 +6,9 @@
 from django.urls import path
 from . import views
 
-urlpatterns = []
+urlpatterns = [
+    # path('.html', shopperView, name='shopper'),
+    # path('/login', loginView, name='login'),
+    # path('/logout.html',logoutView, name='logout'),
+    # path('shopcart.html',shopcartView, name='shopcart')
+]
