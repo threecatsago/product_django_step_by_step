@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'emotion_wheel',
+        'NAME': 'product',
         'USER': 'root',
         'PASSWORD': 'password',
         'HOST': '127.0.0.1',
